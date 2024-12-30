@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Volume Booster</title>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .slider-container {
+      margin: 10px 0;
+    }
+    #volumeSlider {
+      width: 100%;
+    }
+    .value-display {
+      text-align: center;
+      margin: 5px 0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h3>Volume Booster</h3>
+  <div class="slider-container">
+    <input type="range" id="volumeSlider" min="10" max="400" value="100">
+    <div class="value-display">Volume: <span id="volumeValue">100</span>%</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
